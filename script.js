@@ -87,8 +87,10 @@ if(currentMonth == 12 || currentMonth > 0 && currentMonth <= 2) {
   alert('Прекрасная пора года - весна!');
 } else if(currentMonth >= 6 && currentMonth <= 8){
   alert('Очень жарко, так как лето');
-} else if(currentMonth >= 9 && currentMonth <= 11)
-{ alert('Хм... дождливая осень');
+} else if(currentMonth >= 9 && currentMonth <= 11) { 
+  alert('Хм... дождливая осень');
+} else {
+    alert('Эй! Мы не на Марсе! На Земле только 12 месяцев!Введите число от 1 до 12.');
 }
                             // Задание 6
 var i;                          
